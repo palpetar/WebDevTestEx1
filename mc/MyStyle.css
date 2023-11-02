@@ -1,0 +1,15 @@
+*{
+    background-color: green;
+}
+.draggable {
+    position: absolute;
+    cursor: grab;
+    z-index: 1;
+    width: 0px;
+    height: 0px;
+    display: block;
+    background-color: white;
+    border-radius: 100px;
+}
+
+.draggable img {border-radius: 6px;}
