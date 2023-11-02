@@ -112,3 +112,7 @@ h2{
 .card-type{
     text-align: center;
 }
+
+#logTable{
+    margin-left: 500px;
+}
