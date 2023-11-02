@@ -1,5 +1,5 @@
 *{
-    background-color: aquamarine;
+    background-color: green;
 }
 .draggable {
     position: absolute;
@@ -13,3 +13,102 @@
 }
 
 .draggable img {border-radius: 6px;}
+
+body{
+    background-color: #f8fafc;
+}
+
+h2{
+    margin: 0;
+    margin-bottom: 1.3rem;
+    font-weight: 600;
+    line-height: 1.3;
+}
+
+.btn {
+    font-weight: 500;
+    font-size: 15px;
+    margin-right: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    cursor: pointer;
+    color: white;
+    width: 45%;
+}
+
+.custom-btn {
+   
+    border: 2px solid #000;
+    color: #000;
+    background: transparent;
+    cursor: pointer;
+    /* padding: 10px 25px; */
+    /* width: 130px;
+    height: 40px; */
+}
+
+.submit{
+    background: #645cff;
+}
+
+.reset {
+    background: #EF0107;
+}
+
+/* -----------------/Student Info Stylling/----------------- */
+#container{
+    /* padding: 1rem; */
+    /* width: 96.5%; */
+    margin-top: 3rem;
+    width: 90%;
+}
+
+.block{
+    background-color: #e4e4e4;
+    font-size: 16px;
+    /* width: 100%; */
+    width: 99.8%;
+    height: 15px;
+    padding: 1rem;
+   
+    border: solid 1px #d8d8d8;
+}
+
+.block:nth-child(even){
+    background-color: #fff;
+}
+.block:hover{
+    transition: background-color 150ms ease-out;
+    background-color: whitesmoke;
+}
+
+.grid-list-form-data{
+    display: grid;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.grid-list{
+    display: grid;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+.main-row{
+    background-color: #8f8f8f;
+    color: white;
+    font-size: 19px;
+    width: 100%;
+    padding: 1rem;
+}
+
+.time {
+    text-align: center;
+}
+
+.card-type{
+    text-align: center;
+}
